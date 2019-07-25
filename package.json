@@ -22,6 +22,6 @@
   "dependencies": {
     "istorm_logger": "latest",
     "dateformat": "latest",
-    "mysql": "latest",
+    "mysql": "latest"
   }
 }
