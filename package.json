@@ -1,0 +1,25 @@
+{
+  "name": "istorm_db",
+  "version": "1.0.2",
+  "description": "Simple database wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i--storm/node_mysql_manager.git"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "Victor Iagnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i--storm/node_mysql_manager/issues"
+  },
+  "homepage": "https://github.com/i--storm/node_mysql_manager#readme",
+  "dependencies": {
+    "istorm_logger": "latest"
+  }
+}
