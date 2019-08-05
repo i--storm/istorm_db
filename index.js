@@ -252,6 +252,9 @@ class DB{
 
         let where_str="";
         if(typeof(where)==="object") {
+        	if(Object.keys(where)===0){
+        		throw new Error("Where statement is empty");
+        	}
             for (let name in where) {
 
                 let data = where[name];
@@ -272,6 +275,9 @@ class DB{
                 //where_str=where_str+name+"="+mysql.escape(data);
             }
         }else{
+        	if(where.length===0){
+        		throw new Error("Where statement is empty");
+        	}
             where_str=where;
         }
 
