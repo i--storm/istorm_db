@@ -1,6 +1,6 @@
 {
   "name": "istorm_db",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple database wrapper",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i--storm/node_mysql_manager.git"
+    "url": "git+https://github.com/i--storm/istorm_db.git"
   },
   "keywords": [
     "mysql"
