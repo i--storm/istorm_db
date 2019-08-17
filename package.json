@@ -16,9 +16,9 @@
   "author": "Victor Iagnov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/i--storm/node_mysql_manager/issues"
+    "url": "https://github.com/i--storm/istorm_db/issues"
   },
-  "homepage": "https://github.com/i--storm/node_mysql_manager#readme",
+  "homepage": "https://github.com/i--storm/istorm_db#readme",
   "dependencies": {
     "istorm_logger": "latest",
     "dateformat": "latest",
