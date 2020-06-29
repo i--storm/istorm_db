@@ -380,6 +380,9 @@ class DB{
         let context=this;
         return new Promise((resolve, reject) => {
             context.insert(table, data_arr, (error, result, fields)=>{
+                if(error){
+                    reject(error);
+                }
                 resolve(result);
             });
         });
@@ -389,6 +392,9 @@ class DB{
         let context=this;
         return new Promise((resolve, reject) => {
             context.update(table, update, where, (error, results, fields)=>{
+                if(error){
+                    reject(error);
+                }
                 resolve(true);
             });
         });
