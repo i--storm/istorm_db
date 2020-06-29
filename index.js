@@ -81,9 +81,11 @@ class DB{
                     context.query(context.queue[idx][0], context.queue[idx][1]);
                 }
                 context.queue=[];
-                if(typeof(callback)!=="undefined"){
-                    callback();
-                }
+                context.query('SET NAMES utf8mb4;', ()=>{
+                    if(typeof(callback)!=="undefined"){
+                        callback();
+                    }
+                });
             }                                     // to avoid a hot loop, and to allow our node script to
         });                                     // process asynchronous requests in the meantime.
                                                 // If you're also serving http, display a 503 error.
